@@ -1,0 +1,290 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    margin-top: 0px;
+    border: 0px solid white;
+    z-index: 10;
+    background-color: #e3e3e3;
+    position: fixed;
+    width: 100%;
+    padding: 2px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+}
+
+header .RocketCityLogo img{
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #e3e3e3;
+    position: relative;
+}
+
+header li{
+    display: inline-block;
+}
+
+header li a{
+    color: #292929;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+header li:hover{
+    background: lightgray;
+}
+
+header ul ul {
+    position: absolute;
+    min-width: 200px;
+    background: lightgray;
+    display: none;
+}
+
+header ul ul li {
+    display: block;
+    background: #e3e3e3;
+}
+
+header ul li:hover ul{
+    display: block;
+}
+
+header ul li i {
+    color: #292929;
+    float: right;
+    padding-left: 0px;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.jumbotron1 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg');
+    background-size: cover;
+    color: black;
+    height: 700px;
+}
+
+.jumbotron1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+.divider{
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+}
+
+.divider .container{
+    font-size: 2em;
+    flex-grow: 1;
+    flex-basis: auto;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+.jumbotron2 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #EAEDEF;
+    background-size: cover;
+    color: black;
+    height: 700px;
+    background-image: url('https://cdn-az.allevents.in/banners/fb079a2d0ff41723f9bc30998eef2d6c');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.jumbotron2 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    margin-left: 13em;
+    margin-right: 7em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron2 p {
+    text-align: left;
+    margin-left: 38em;
+    margin-right: 5em;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+}
+
+.jumbotron3 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    height: 700px;
+    background-color: #EAEDEF;
+    background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+}
+
+.jumbotron3 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 2em;
+    margin-right: 17em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron3 p {
+    text-align: left;
+    margin-left: 5em;
+    margin-right: 42em;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+}
+
+.jumbotron4 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #EAEDEF;
+    background-size: cover;
+    color: black;
+    height: 700px;
+    background-image: url('https://muat-101a3.kxcdn.com/sites/default/files/styles/large/public/20106774_1443208849101792_2975414706485992577_n.jpg?itok=2Au8HyIV');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.jumbotron4 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    margin-left: 13em;
+    margin-right: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron4 p {
+    text-align: left;
+    margin-left: 38em;
+    margin-right: 5em;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+}
+
+.jumbotron5 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    height: 700px;
+    background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
+}
+
+.jumbotron5 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    font-size: 20px;
+    color: white;
+    text-shadow: none;
+    background: none;
+    margin: 5px;
+    border: 2px solid white;
+    transition: 0.8s ease-out;
+}
+
+.btn:hover {
+    color: #101010;
+    background-color: white;
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    background: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    transition: top 0.8s ease-out;
+}
+
+.btn:hover:before {
+    top: 0;
+}
+
+footer {
+    background-color: white;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

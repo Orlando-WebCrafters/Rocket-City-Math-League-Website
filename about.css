@@ -1,0 +1,196 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    margin-top: 0px;
+    border: 0px solid white;
+    z-index: 10;
+    background-color: #e3e3e3;
+    position: fixed;
+    width: 100%;
+    padding: 2px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+}
+
+header .RocketCityLogo img{
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #e3e3e3;
+    position: relative;
+}
+
+header li{
+    display: inline-block;
+}
+
+header li a{
+    color: #292929;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+header li:hover{
+    background: lightgray;
+}
+
+header ul ul {
+    position: absolute;
+    min-width: 200px;
+    background: lightgray;
+    display: none;
+}
+
+header ul ul li {
+    display: block;
+    background: #e3e3e3;
+}
+
+header ul li:hover ul{
+    display: block;
+}
+
+header ul li i {
+    color: #292929;
+    float: right;
+    padding-left: 0px;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.jumbotron1 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #EAEDEF;
+    background-size: cover;
+    color: black;
+}
+
+.jumbotron1 p {
+    text-align: center;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-bottom: 2em;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: #EAEDEF;
+    padding: 7em;
+}
+
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: black;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #667A77;
+    margin-bottom: 40px;
+}
+
+.ps{
+    margin-bottom: 40px;
+}
+
+.ps a{
+    display: inline-block;
+    margin: 20px 50px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.2s all;
+}
+
+.ps a:hover > img{
+    filter: none;
+}
+
+.section{
+    width: 600px;
+    margin: auto;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: white;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
