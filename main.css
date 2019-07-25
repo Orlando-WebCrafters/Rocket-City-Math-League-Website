@@ -96,6 +96,8 @@ header .nav-bar {
     background-size: cover;
     color: black;
     height: 700px;
+    min-height: 600px;
+    max-height: 800px;
 }
 
 .jumbotron1 h1 {
@@ -118,11 +120,11 @@ header .nav-bar {
 }
 
 .divider .container{
-    font-size: 2em;
+    font-size: 3rem;
     flex-grow: 1;
     flex-basis: auto;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
     text-align: center;
     border-left: 1px solid black;
 }
@@ -135,6 +137,8 @@ header .nav-bar {
     background-size: cover;
     color: black;
     height: 700px;
+    min-height: 600px;
+    max-height: 800px;
     background-image: url('https://cdn-az.allevents.in/banners/fb079a2d0ff41723f9bc30998eef2d6c');
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -144,20 +148,25 @@ header .nav-bar {
     font-size: 60px;
     font-weight: 700;
     color: black;
-    margin-left: 13em;
+    margin-left: 56%;
     margin-right: 7em;
+    min-width: 6em;
+    max-width: 8em;
+    text-align: left;
     font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron2 p {
     text-align: left;
-    margin-left: 38em;
+    margin-left: 55%;
     margin-right: 5em;
     color: black;
     font-weight: 500;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
+    min-width: 20em;
+    max-width: 28em;
 }
 
 .jumbotron3 {
@@ -167,6 +176,8 @@ header .nav-bar {
     background-size: cover;
     color: black;
     height: 700px;
+    min-height: 600px;
+    max-height: 800px;
     background-color: #EAEDEF;
     background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
     background-repeat: no-repeat;
@@ -179,8 +190,11 @@ header .nav-bar {
     font-weight: 700;
     margin-left: 2em;
     margin-right: 17em;
+    min-width: 8em;
+    max-width: 10em;
     color: black;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 .jumbotron3 p {
@@ -192,6 +206,8 @@ header .nav-bar {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
+    min-width: 14em;
+    max-width: 22em;
 }
 
 .jumbotron4 {
@@ -202,6 +218,8 @@ header .nav-bar {
     background-size: cover;
     color: black;
     height: 700px;
+    min-height: 600px;
+    max-height: 800px;
     background-image: url('https://muat-101a3.kxcdn.com/sites/default/files/styles/large/public/20106774_1443208849101792_2975414706485992577_n.jpg?itok=2Au8HyIV');
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -211,20 +229,25 @@ header .nav-bar {
     font-size: 60px;
     font-weight: 700;
     color: black;
-    margin-left: 13em;
+    margin-left: 56%;
     margin-right: 2em;
+    min-width: 8em;
+    max-width: 10em;
+    text-align: left;
     font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron4 p {
     text-align: left;
-    margin-left: 38em;
+    margin-left: 55%;
     margin-right: 5em;
     color: black;
     font-weight: 500;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
+    min-width: 20em;
+    max-width: 28em;
 }
 
 .jumbotron5 {
@@ -241,9 +264,8 @@ header .nav-bar {
     font-size: 60px;
     font-weight: 700;
     color: white;
-    margin-left: 5em;
-    margin-right: 5em;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .btn {
