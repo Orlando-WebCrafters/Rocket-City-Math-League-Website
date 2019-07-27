@@ -10,7 +10,6 @@ header {
     background-color: #e3e3e3;
     position: fixed;
     width: 100%;
-    padding: 2px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -22,8 +21,8 @@ header {
 header .RocketCityLogo img{
     display: flex;
     justify-content: flex-start;
-    width: 200px;
-    height: 50px;
+    width: 16vw;
+    height: 4vw;
     margin-top: 0px;
 }
 
@@ -42,7 +41,7 @@ header li{
 header li a{
     color: #292929;
     text-decoration: none;
-    padding: 15px;
+    padding: 1vw;
     display: block;
 }
 
@@ -52,7 +51,7 @@ header li:hover{
 
 header ul ul {
     position: absolute;
-    min-width: 200px;
+    min-width: 16vw;
     background: lightgray;
     display: none;
 }
@@ -95,13 +94,11 @@ header .nav-bar {
     background-image: url('https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg');
     background-size: cover;
     color: black;
-    height: 700px;
-    min-height: 600px;
-    max-height: 800px;
+    height: 50vw;
 }
 
 .jumbotron1 h1 {
-    font-size: 60px;
+    font-size: 4.5vw;
     font-weight: 700;
     margin: 0;
     color: white;
@@ -120,7 +117,7 @@ header .nav-bar {
 }
 
 .divider .container{
-    font-size: 3rem;
+    font-size: 2vw;
     flex-grow: 1;
     flex-basis: auto;
     padding-top: 0.75%;
@@ -136,22 +133,18 @@ header .nav-bar {
     background-color: #EAEDEF;
     background-size: cover;
     color: black;
-    height: 700px;
-    min-height: 600px;
-    max-height: 800px;
+    height: 50vw;
     background-image: url('https://cdn-az.allevents.in/banners/fb079a2d0ff41723f9bc30998eef2d6c');
     background-repeat: no-repeat;
     background-size: 50% 100%;
 }
 
 .jumbotron2 h1 {
-    font-size: 60px;
+    font-size: 4.5vw;
     font-weight: 700;
     color: black;
     margin-left: 56%;
     margin-right: 7em;
-    min-width: 6em;
-    max-width: 8em;
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
@@ -162,11 +155,9 @@ header .nav-bar {
     margin-right: 5em;
     color: black;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
-    min-width: 20em;
-    max-width: 28em;
 }
 
 .jumbotron3 {
@@ -175,9 +166,7 @@ header .nav-bar {
     background-attachment: fixed;
     background-size: cover;
     color: black;
-    height: 700px;
-    min-height: 600px;
-    max-height: 800px;
+    height: 50vw;
     background-color: #EAEDEF;
     background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
     background-repeat: no-repeat;
@@ -186,12 +175,10 @@ header .nav-bar {
 }
 
 .jumbotron3 h1 {
-    font-size: 60px;
+    font-size: 4.5vw;
     font-weight: 700;
     margin-left: 2em;
     margin-right: 17em;
-    min-width: 8em;
-    max-width: 10em;
     color: black;
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -203,11 +190,9 @@ header .nav-bar {
     margin-right: 42em;
     color: black;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
-    min-width: 14em;
-    max-width: 22em;
 }
 
 .jumbotron4 {
@@ -217,22 +202,18 @@ header .nav-bar {
     background-color: #EAEDEF;
     background-size: cover;
     color: black;
-    height: 700px;
-    min-height: 600px;
-    max-height: 800px;
+    height: 50vw;
     background-image: url('https://muat-101a3.kxcdn.com/sites/default/files/styles/large/public/20106774_1443208849101792_2975414706485992577_n.jpg?itok=2Au8HyIV');
     background-repeat: no-repeat;
     background-size: 50% 100%;
 }
 
 .jumbotron4 h1 {
-    font-size: 60px;
+    font-size: 4.5vw;
     font-weight: 700;
     color: black;
     margin-left: 56%;
     margin-right: 2em;
-    min-width: 8em;
-    max-width: 10em;
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
@@ -243,11 +224,9 @@ header .nav-bar {
     margin-right: 5em;
     color: black;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
-    min-width: 20em;
-    max-width: 28em;
 }
 
 .jumbotron5 {
@@ -256,12 +235,12 @@ header .nav-bar {
     background-attachment: fixed;
     background-size: cover;
     color: black;
-    height: 700px;
+    height: 50vw;
     background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
 }
 
 .jumbotron5 h1 {
-    font-size: 60px;
+    font-size: 4.5vw;
     font-weight: 700;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -301,8 +280,8 @@ header .nav-bar {
 
 footer {
     background-color: white;
-    font-size: 12px;
-    padding: 20px 0;
+    font-size: 0.9vw;
+    padding: 1.6vw 0;
 }
 
 footer .row {
