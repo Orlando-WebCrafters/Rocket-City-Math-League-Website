@@ -51,7 +51,7 @@ header li:hover{
 
 header ul ul {
     position: absolute;
-    min-width: 16vw;
+    min-width: 12vw;
     background: lightgray;
     display: none;
 }
@@ -85,4 +85,98 @@ header .nav-bar {
 
 .container{
     width: 100%;
+}
+
+.contest-info{
+    overflow: hidden;
+    text-align: center;
+    background: #EAEDEF;
+    padding: 6vw;
+}
+
+.contest-info h1{
+    text-transform: uppercase;
+    margin-bottom: 4.5vw;
+    color: black;
+    font-size: 4.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 12.8vw;
+    height: 3px;
+    background: #667A77;
+    margin-bottom: 3.2vw;
+}
+
+.jumbotron1 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #EAEDEF;
+    background-size: cover;
+    color: black;
+}
+
+.jumbotron1 p {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron1 .sub-title{
+    text-align: center;
+    color: black;
+    font-size: 2.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.jumbotron2 {
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #EAEDEF;
+    background-size: cover;
+    color: black;
+}
+
+.jumbotron2 .sub-title{
+    text-align: center;
+    color: black;
+    font-size: 2.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 2vw;
+}
+
+.jumbotron2 p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: white;
+    font-size: 0.9vw;
+    padding: 1.6vw 0;
+}
+
+footer .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }

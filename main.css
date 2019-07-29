@@ -51,7 +51,7 @@ header li:hover{
 
 header ul ul {
     position: absolute;
-    min-width: 16vw;
+    min-width: 12vw;
     background: lightgray;
     display: none;
 }
@@ -141,7 +141,6 @@ header .nav-bar {
 
 .jumbotron2 h1 {
     font-size: 4.5vw;
-    font-weight: 700;
     color: black;
     margin-left: 56%;
     margin-right: 7em;
@@ -176,7 +175,6 @@ header .nav-bar {
 
 .jumbotron3 h1 {
     font-size: 4.5vw;
-    font-weight: 700;
     margin-left: 2em;
     margin-right: 17em;
     color: black;
@@ -210,7 +208,6 @@ header .nav-bar {
 
 .jumbotron4 h1 {
     font-size: 4.5vw;
-    font-weight: 700;
     color: black;
     margin-left: 56%;
     margin-right: 2em;
