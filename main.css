@@ -94,7 +94,7 @@ header .nav-bar {
     background-image: url('https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg');
     background-size: cover;
     color: black;
-    height: 50vw;
+    height: 100vh;
 }
 
 .jumbotron1 h1 {
@@ -133,7 +133,7 @@ header .nav-bar {
     background-color: #EAEDEF;
     background-size: cover;
     color: black;
-    height: 50vw;
+    height: 100vh;
     background-image: url('https://cdn-az.allevents.in/banners/fb079a2d0ff41723f9bc30998eef2d6c');
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -165,7 +165,7 @@ header .nav-bar {
     background-attachment: fixed;
     background-size: cover;
     color: black;
-    height: 50vw;
+    height: 100vh;
     background-color: #EAEDEF;
     background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ header .nav-bar {
     background-color: #EAEDEF;
     background-size: cover;
     color: black;
-    height: 50vw;
+    height: 100vh;
     background-image: url('https://muat-101a3.kxcdn.com/sites/default/files/styles/large/public/20106774_1443208849101792_2975414706485992577_n.jpg?itok=2Au8HyIV');
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -232,7 +232,7 @@ header .nav-bar {
     background-attachment: fixed;
     background-size: cover;
     color: black;
-    height: 50vw;
+    height: 100vh;
     background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
 }
 
