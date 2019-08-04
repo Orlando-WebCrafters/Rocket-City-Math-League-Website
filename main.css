@@ -98,7 +98,7 @@ header .nav-bar {
 }
 
 .jumbotron1 h1 {
-    font-size: 4.5vw;
+    font-size: 4.5vmax;
     font-weight: 700;
     margin: 0;
     color: white;
@@ -140,7 +140,7 @@ header .nav-bar {
 }
 
 .jumbotron2 h1 {
-    font-size: 4.5vw;
+    font-size: 4.5vmax;
     color: black;
     margin-left: 56%;
     margin-right: 7em;
@@ -154,7 +154,7 @@ header .nav-bar {
     margin-right: 5em;
     color: black;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
 }
@@ -174,8 +174,8 @@ header .nav-bar {
 }
 
 .jumbotron3 h1 {
-    font-size: 4.5vw;
-    margin-left: 2em;
+    font-size: 4.5vmax;
+    margin-left: 8.5vw;
     margin-right: 17em;
     color: black;
     font-family: 'Roboto', sans-serif;
@@ -184,11 +184,11 @@ header .nav-bar {
 
 .jumbotron3 p {
     text-align: left;
-    margin-left: 5em;
-    margin-right: 42em;
+    margin-left: 7.5vw;
+    margin-right: 55vw;
     color: black;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
 }
@@ -207,7 +207,7 @@ header .nav-bar {
 }
 
 .jumbotron4 h1 {
-    font-size: 4.5vw;
+    font-size: 4.5vmax;
     color: black;
     margin-left: 56%;
     margin-right: 2em;
@@ -221,7 +221,7 @@ header .nav-bar {
     margin-right: 5em;
     color: black;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     font-family: 'Roboto', sans-serif;
     padding: 1em;
 }
@@ -237,7 +237,7 @@ header .nav-bar {
 }
 
 .jumbotron5 h1 {
-    font-size: 4.5vw;
+    font-size: 4.5vmax;
     font-weight: 700;
     color: white;
     font-family: 'Roboto', sans-serif;
