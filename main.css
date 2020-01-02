@@ -91,7 +91,7 @@ header .nav-bar {
     display: flex;
     align-items: center;
     background-attachment: fixed;
-    background-image: url('https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg');
+    background-image: url('Graphics-Pictures/RocketCityBackground.jpg');
     background-size: cover;
     color: black;
     height: 100vh;
@@ -134,7 +134,7 @@ header .nav-bar {
     background-size: cover;
     color: black;
     height: 100vh;
-    background-image: url('https://cdn-az.allevents.in/banners/fb079a2d0ff41723f9bc30998eef2d6c');
+    background-image: url('Graphics-Pictures/RocketCityMathComp.jpg');
     background-repeat: no-repeat;
     background-size: 50% 100%;
 }
@@ -167,7 +167,7 @@ header .nav-bar {
     color: black;
     height: 100vh;
     background-color: #EAEDEF;
-    background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
+    background-image: url('Graphics-Pictures/MathBackground.jpg');
     background-repeat: no-repeat;
     background-size: 50% 100%;
     background-position: right;
@@ -201,7 +201,7 @@ header .nav-bar {
     background-size: cover;
     color: black;
     height: 100vh;
-    background-image: url('https://muat-101a3.kxcdn.com/sites/default/files/styles/large/public/20106774_1443208849101792_2975414706485992577_n.jpg?itok=2Au8HyIV');
+    background-image: url('Graphics-Pictures/RocketCityMathComp2.jpg');
     background-repeat: no-repeat;
     background-size: 50% 100%;
 }
@@ -233,7 +233,7 @@ header .nav-bar {
     background-size: cover;
     color: black;
     height: 100vh;
-    background-image: url('https://ak6.picdn.net/shutterstock/videos/1010025116/thumb/1.jpg');
+    background-image: url('Graphics-Pictures/MathBackground.jpg');
 }
 
 .jumbotron5 h1 {
